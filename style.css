@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family:"Open Sans", sans-serif;
+
+}
+/* espacamentos/ */
+img{
+  margin-bottom: 20px;
+  border-radius: 28px;
+}
+h1{
+  font-size: 46px;
+  
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 28px;
+}
+
+h1, h2,h3{
+  font-weight: bold;
+}
+#info-destiny{
+  padding-bottom: 40px;
+}
+
+#page{
+  
+  width: 1120px;
+  /* height: 3054px; */
+  margin: 80px auto ;
+}
+
+#img-info p{
+  text-align: center;
+  font-style: italic;
+}
+
+#info-destiny-city div{
+  padding :64px 0 64px 0;
+  
+}
+
+.linea{
+  margin: 40px 0 40px 0;
+  border: 1px #D9D9D9 solid;
+}
+
+.red-title{
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #E1624F;
+  font-weight: bold;
+}
+.history{
+  margin-bottom: 48px;
+  color:#0C51A7 ;
+  font-weight: bold;
+}
+/* o marker estiliza somente o marcador da ol ou ul 
+  > inclui as modificacoes somente na li que está dentro da ol e que possuem marcadores
+*/
+
+ ol > li::marker {
+  font-weight: bold;
+  font-size: 28px;;
+
+}
+
+li{
+  margin-left: 40px;
+}
+
+ul{
+  list-style: disc;
+}
+
+#color-list li:nth-child(1) {
+  color: #591B98; /* Primeiro item (filho da UL) */
+  
+}
+
+#color-list li:nth-child(2) {
+  color: #E5245E; /* Segundo item (filho da UL)*/
+}
+#color-list li:nth-child(3) {
+  color: #E95E10; /* Terceiro item (filho da UL)*/
+}
+
+#color-list li:nth-child(1), 
+#color-list li:nth-child(2),
+#color-list li:nth-child(3){
+  font-weight: bold;
+}
+
+#description{
+  text-align:center;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+  margin: 0 0 0 4px ;
+}
